@@ -42,9 +42,9 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        doc.title = "Google | BGS"
+        doc.title = "Google"
         link.rel = "icon";
-        link.href = "https://raw.githubusercontent.com/BigfootsGS/BigfootsGS.github.io/main/images/favicon.ico";
+        link.href = "https://www.google.com/favicon.ico";
         iframe.src = location.href
         style.position = "fixed"
         style.top = style.bottom = style.left = style.right = 0
@@ -126,7 +126,7 @@ else {
 
 //alert
 function promptalert() {
-                if (confirm("Click OK below to hide this page from history/Click cancel to continue to normal website")) {
+                if (confirm("Click OK below to hide this page from history / Click cancel to continue to normal website")) {
                     txt = "You pressed OK!";
                     blank();
                 } 
